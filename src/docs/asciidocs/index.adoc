@@ -1,0 +1,95 @@
+=== Get Testy By Id
+Get a Testy by an Id
+
+.request
+include::{snippets}/get-testy/http-request.adoc[]
+
+.response
+include::{snippets}/get-testy/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/get-testy/curl-request.adoc[]
+
+=== Get Testy By Id(Not Found)
+Get a Testy by an Id that doesn't exist
+
+.request
+include::{snippets}/get-testy-not-found/http-request.adoc[]
+
+.response
+include::{snippets}/get-testy-not-found/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/get-testy-not-found/curl-request.adoc[]
+
+=== Get All Testies
+Get all Testies available
+
+.request
+include::{snippets}/get-all-testies/http-request.adoc[]
+
+.response
+include::{snippets}/get-all-testies/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/get-all-testies/curl-request.adoc[]
+
+=== Get All Testies
+Get all Testies available
+
+.request
+include::{snippets}/get-all-testies/http-request.adoc[]
+
+.response
+include::{snippets}/get-all-testies/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/get-all-testies/curl-request.adoc[]
+
+=== Add Testy
+Add a new Testy
+
+.request
+include::{snippets}/add-new-testy/http-request.adoc[]
+
+.response
+include::{snippets}/add-new-testy/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/add-new-testy/curl-request.adoc[]
+
+=== Update Testy
+Update a testy name for a given Id
+
+.request
+include::{snippets}/update-testy/http-request.adoc[]
+
+.response
+include::{snippets}/update-testy/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/update-testy/curl-request.adoc[]
+
+=== Update Testy(Not Found)
+Update a testy name for an Id that doesn't exist
+
+.request
+include::{snippets}/update-testy-not-found/http-request.adoc[]
+
+.response
+include::{snippets}/update-testy-not-found/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/update-testy-not-found/curl-request.adoc[]
+
+=== Delete Testy
+Delete a testy for a given Id
+
+.request
+include::{snippets}/delete-testy/http-request.adoc[]
+
+.response
+include::{snippets}/delete-testy/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/delete-testy/curl-request.adoc[]
